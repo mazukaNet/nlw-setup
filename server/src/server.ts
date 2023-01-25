@@ -1,6 +1,5 @@
 import Fastify, { fastify } from "fastify";
 import cors from "@fastify/cors";
-import { prisma } from "./lib/prisma";
 import { appRoutes } from "./routes";
 
 const app = Fastify();
